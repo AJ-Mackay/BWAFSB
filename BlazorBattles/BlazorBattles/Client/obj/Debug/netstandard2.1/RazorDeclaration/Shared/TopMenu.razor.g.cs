@@ -83,8 +83,9 @@ using BlazorBattles.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\TopMenu.razor"
+#line 5 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\TopMenu.razor"
        
+	[Parameter]
 	public int Bananas { get; set; } = 100;
 
 #line default
