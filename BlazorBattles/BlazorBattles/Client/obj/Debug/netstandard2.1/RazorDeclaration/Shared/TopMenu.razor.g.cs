@@ -75,7 +75,7 @@ using BlazorBattles.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class TopMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class TopMenu : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -83,7 +83,7 @@ using BlazorBattles.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\TopMenu.razor"
+#line 9 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\TopMenu.razor"
        
 	[Parameter]
 	public int Bananas { get; set; } = 100;
@@ -93,9 +93,20 @@ using BlazorBattles.Client.Shared;
 		Bananas += value;
 	}
 
+	protected override void OnInitialized()
+	{
+		BananaService.OnChange += StateHasChanged;
+	}
+
+	public void Dispose()
+	{
+		BananaService.OnChange -= StateHasChanged;
+	}
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IBananaService BananaService { get; set; }
     }
 }
 #pragma warning restore 1591

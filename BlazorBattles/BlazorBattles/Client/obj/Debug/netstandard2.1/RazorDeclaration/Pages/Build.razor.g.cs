@@ -84,16 +84,17 @@ using BlazorBattles.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 7 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
+#line 8 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
        
 	private void EatBananas(int amount)
 	{
-		Console.WriteLine($"{amount} bananas eaten.");
+		BananaService.EatBananas(amount);
 	}
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IBananaService BananaService { get; set; }
     }
 }
 #pragma warning restore 1591
