@@ -373,6 +373,6 @@ C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\Razor\Shared\AddBananas.razor.g.cs
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Build.razor.g.cs
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\Razor\Pages\Build.razor.g.cs
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\DLkjDXkH5tYreuokBGMZMJQEBUZeOM9aERr8i3Wy5Sw=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\1ZxjnRhk6L0Ix2lCy0vXKW43O7rtWLIKBVrxhMo1SRA=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\zGGygSRUszllhMF6WpnJlOQu03edC0yJcLH5tOB7ny4=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\aho_Jpt7lhirFrLOWy0iCYX7avalW8CVISbZWvLnWgI=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\iudcVNqYfjS9JFqQnLxkYx5y4-jLblvuOZ4XIeJYQHc=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\u9XLXAvxXY3XngVUIe7adZgoVCzyoZPEuW149lrqodI=.hash
