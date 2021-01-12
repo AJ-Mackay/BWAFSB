@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorBattles.Client.Shared
+namespace BlazorBattles.Client.Pages
 {
     #line hidden
     using System;
@@ -75,7 +75,8 @@ using BlazorBattles.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/build")]
+    public partial class Build : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -83,16 +84,12 @@ using BlazorBattles.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
+#line 7 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
        
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+	private void EatBananas(int amount)
+	{
+		Console.WriteLine($"{amount} bananas eaten.");
+	}
 
 #line default
 #line hidden
