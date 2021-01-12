@@ -219,7 +219,6 @@ C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\PxZBdyLSxiLQp1w-zWX0JnMRSLZ6fcLu5HQfUy6wht4=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash
@@ -234,7 +233,6 @@ C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\gDFyOQkKnZ1fyoybFEhh3I_WG5xYfimZvc79xr2KHpY=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
@@ -373,6 +371,8 @@ C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\Razor\Shared\AddBananas.razor.g.cs
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Build.razor.g.cs
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\Razor\Pages\Build.razor.g.cs
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\aho_Jpt7lhirFrLOWy0iCYX7avalW8CVISbZWvLnWgI=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\iudcVNqYfjS9JFqQnLxkYx5y4-jLblvuOZ4XIeJYQHc=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\u9XLXAvxXY3XngVUIe7adZgoVCzyoZPEuW149lrqodI=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\fQmS_QR5LDA5BRgqzmhUZpQSh-mnGhroI8UyAwjHnBM=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\F-W3dueiIwGxTvCJXBRm2diAvdtPNYphoCz0sIGsslI=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\DYqiPoUVYSbr8GtFAed6Jqf_f7fs8fMAP-Ajh_X4ozg=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\FfVy30HtBDL615wLApbUIK3axKEd3iUpWWAwQkI0k50=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\9ywNHXoJ4k7l9vaHqZAI-B_ysXLv3hBK5DU7yl0DgUI=.hash
