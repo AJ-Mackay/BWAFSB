@@ -93,10 +93,11 @@ using Blazored.Toast.Services;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "top-row pl-4 navbar navbar-dark");
-            __builder.AddMarkupContent(2, "<a class=\"navbar-brand\" href>Blazor Battles</a>\r\n    ");
-            __builder.OpenElement(3, "button");
-            __builder.AddAttribute(4, "class", "navbar-toggler");
-            __builder.AddAttribute(5, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(2, "\r\n    ");
+            __builder.AddMarkupContent(3, "<a class=\"navbar-brand\" href>Blazor Battles</a>\r\n    ");
+            __builder.OpenElement(4, "button");
+            __builder.AddAttribute(5, "class", "navbar-toggler");
+            __builder.AddAttribute(6, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 3 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
                                              ToggleNavMenu
@@ -105,12 +106,13 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             ));
-            __builder.AddMarkupContent(6, "<span class=\"navbar-toggler-icon\"></span>");
+            __builder.AddMarkupContent(7, "\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(8, "\r\n");
             __builder.CloseElement();
-            __builder.AddMarkupContent(7, "\r\n\r\n");
-            __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", 
+            __builder.AddMarkupContent(9, "\r\n\r\n");
+            __builder.OpenElement(10, "div");
+            __builder.AddAttribute(11, "class", 
 #nullable restore
 #line 8 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
              NavMenuCssClass
@@ -119,7 +121,7 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(10, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddAttribute(12, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 8 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
                                         ToggleNavMenu
@@ -128,14 +130,17 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             ));
-            __builder.OpenElement(11, "ul");
-            __builder.AddAttribute(12, "class", "nav flex-column");
-            __builder.OpenElement(13, "li");
-            __builder.AddAttribute(14, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(15);
-            __builder.AddAttribute(16, "class", "nav-link");
-            __builder.AddAttribute(17, "href", "");
-            __builder.AddAttribute(18, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
+            __builder.AddMarkupContent(13, "\r\n\t");
+            __builder.OpenElement(14, "ul");
+            __builder.AddAttribute(15, "class", "nav flex-column");
+            __builder.AddMarkupContent(16, "\r\n\t\t");
+            __builder.OpenElement(17, "li");
+            __builder.AddAttribute(18, "class", "nav-item px-3");
+            __builder.AddMarkupContent(19, "\r\n\t\t\t");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(20);
+            __builder.AddAttribute(21, "class", "nav-link");
+            __builder.AddAttribute(22, "href", "");
+            __builder.AddAttribute(23, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
 #nullable restore
 #line 11 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
                                                      NavLinkMatch.All
@@ -144,37 +149,44 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(19, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(20, "<span class=\"oi oi-home\" aria-hidden=\"true\"></span> Home\r\n\t\t\t");
+            __builder.AddAttribute(24, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(25, "\r\n\t\t\t\t<span class=\"oi oi-home\" aria-hidden=\"true\"></span> Home\r\n\t\t\t");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(26, "\r\n\t\t");
             __builder.CloseElement();
-            __builder.AddMarkupContent(21, "\r\n\t\t");
-            __builder.OpenElement(22, "li");
-            __builder.AddAttribute(23, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(24);
-            __builder.AddAttribute(25, "class", "nav-link");
-            __builder.AddAttribute(26, "href", "build");
-            __builder.AddAttribute(27, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(28, "<span class=\"oi oi-wrench\" aria-hidden=\"true\"></span> Build\r\n\t\t\t");
+            __builder.AddMarkupContent(27, "\r\n\t\t");
+            __builder.OpenElement(28, "li");
+            __builder.AddAttribute(29, "class", "nav-item px-3");
+            __builder.AddMarkupContent(30, "\r\n\t\t\t");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(31);
+            __builder.AddAttribute(32, "class", "nav-link");
+            __builder.AddAttribute(33, "href", "build");
+            __builder.AddAttribute(34, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(35, "\r\n\t\t\t\t<span class=\"oi oi-wrench\" aria-hidden=\"true\"></span> Build\r\n\t\t\t");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(36, "\r\n\t\t");
             __builder.CloseElement();
-            __builder.AddMarkupContent(29, "\r\n\t\t");
-            __builder.OpenElement(30, "li");
-            __builder.AddAttribute(31, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(32);
-            __builder.AddAttribute(33, "class", "nav-link");
-            __builder.AddAttribute(34, "href", "army");
-            __builder.AddAttribute(35, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(36, "<span class=\"oi oi-people\" aria-hidden=\"true\"></span> Army\r\n\t\t\t");
+            __builder.AddMarkupContent(37, "\r\n\t\t");
+            __builder.OpenElement(38, "li");
+            __builder.AddAttribute(39, "class", "nav-item px-3");
+            __builder.AddMarkupContent(40, "\r\n\t\t\t");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(41);
+            __builder.AddAttribute(42, "class", "nav-link");
+            __builder.AddAttribute(43, "href", "army");
+            __builder.AddAttribute(44, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(45, "\r\n\t\t\t\t<span class=\"oi oi-people\" aria-hidden=\"true\"></span> Army\r\n\t\t\t");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(46, "\r\n\t\t");
             __builder.CloseElement();
+            __builder.AddMarkupContent(47, "\r\n\t");
             __builder.CloseElement();
+            __builder.AddMarkupContent(48, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

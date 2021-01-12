@@ -92,7 +92,7 @@ using Blazored.Toast.Services;
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
-            __builder.AddMarkupContent(0, "<h3>Army</h3>");
+            __builder.AddMarkupContent(0, "<h3>Army</h3>\r\n\r\n");
 #nullable restore
 #line 6 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
  foreach (var userUnit in UnitService.MyUnits)
@@ -101,9 +101,12 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(1, "div");
-            __builder.AddAttribute(2, "class", "army-list");
-            __builder.OpenElement(3, "div");
+            __builder.AddMarkupContent(1, "\t");
+            __builder.OpenElement(2, "div");
+            __builder.AddAttribute(3, "class", "army-list");
+            __builder.AddMarkupContent(4, "\r\n\t\t");
+            __builder.OpenElement(5, "div");
+            __builder.AddMarkupContent(6, "\r\n");
 #nullable restore
 #line 10 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
              switch (userUnit.UnitId)
@@ -113,7 +116,7 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(4, "<img src=\"icons/W_Sword006.png\">");
+            __builder.AddMarkupContent(7, " <img src=\"icons/W_Sword006.png\"> ");
 #nullable restore
 #line 12 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
                                                                break;
@@ -122,7 +125,7 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(5, "<img src=\"icons/S_Bow08.png\">");
+            __builder.AddMarkupContent(8, " <img src=\"icons/S_Bow08.png\"> ");
 #nullable restore
 #line 13 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
                                                             break;
@@ -131,7 +134,7 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(6, "<img src=\"icons/C_Hat01.png\">");
+            __builder.AddMarkupContent(9, " <img src=\"icons/C_Hat01.png\"> ");
 #nullable restore
 #line 14 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
                                                             break;
@@ -140,10 +143,12 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
+            __builder.AddMarkupContent(10, "\t\t");
             __builder.CloseElement();
-            __builder.AddMarkupContent(7, "\r\n\t\t");
-            __builder.OpenElement(8, "div");
-            __builder.AddContent(9, 
+            __builder.AddMarkupContent(11, "\r\n\t\t");
+            __builder.OpenElement(12, "div");
+            __builder.AddMarkupContent(13, "\r\n\t\t\t");
+            __builder.AddContent(14, 
 #nullable restore
 #line 18 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
              UnitService.Units.First(unit => unit.Id == userUnit.UnitId).Title
@@ -152,10 +157,12 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             );
+            __builder.AddMarkupContent(15, "\r\n\t\t");
             __builder.CloseElement();
-            __builder.AddMarkupContent(10, "\r\n\t\t");
-            __builder.OpenElement(11, "div");
-            __builder.AddContent(12, 
+            __builder.AddMarkupContent(16, "\r\n\t\t");
+            __builder.OpenElement(17, "div");
+            __builder.AddMarkupContent(18, "\r\n\t\t\t");
+            __builder.AddContent(19, 
 #nullable restore
 #line 21 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
              userUnit.HitPoints
@@ -164,9 +171,11 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             );
-            __builder.AddMarkupContent(13, " HP\r\n\t\t");
+            __builder.AddMarkupContent(20, " HP\r\n\t\t");
             __builder.CloseElement();
+            __builder.AddMarkupContent(21, "\r\n\t");
             __builder.CloseElement();
+            __builder.AddMarkupContent(22, "\r\n");
 #nullable restore
 #line 24 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
 }

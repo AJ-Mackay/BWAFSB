@@ -95,9 +95,10 @@ using Blazored.Toast.Services;
             __builder.AddMarkupContent(0, "<h3>Build</h3>\r\n\r\n");
             __builder.OpenElement(1, "div");
             __builder.AddAttribute(2, "class", "form-group");
-            __builder.OpenElement(3, "select");
-            __builder.AddAttribute(4, "class", "form-control");
-            __builder.AddAttribute(5, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+            __builder.AddMarkupContent(3, "\r\n\t");
+            __builder.OpenElement(4, "select");
+            __builder.AddAttribute(5, "class", "form-control");
+            __builder.AddAttribute(6, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 9 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
                    selectedUnitId
@@ -106,8 +107,9 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(6, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => selectedUnitId = __value, selectedUnitId));
+            __builder.AddAttribute(7, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => selectedUnitId = __value, selectedUnitId));
             __builder.SetUpdatesAttributeName("value");
+            __builder.AddMarkupContent(8, "\r\n");
 #nullable restore
 #line 10 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
          foreach (var unit in UnitService.Units)
@@ -116,8 +118,9 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(7, "option");
-            __builder.AddAttribute(8, "value", 
+            __builder.AddMarkupContent(9, "\t\t\t");
+            __builder.OpenElement(10, "option");
+            __builder.AddAttribute(11, "value", 
 #nullable restore
 #line 12 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
                             unit.Id
@@ -126,7 +129,7 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             );
-            __builder.AddContent(9, 
+            __builder.AddContent(12, 
 #nullable restore
 #line 12 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
                                       unit.Title
@@ -135,8 +138,8 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             );
-            __builder.AddContent(10, " // ");
-            __builder.AddContent(11, 
+            __builder.AddContent(13, " // ");
+            __builder.AddContent(14, 
 #nullable restore
 #line 12 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
                                                      unit.BananaCost
@@ -145,8 +148,9 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             );
-            __builder.AddContent(12, " Bananas");
+            __builder.AddContent(15, " Bananas");
             __builder.CloseElement();
+            __builder.AddMarkupContent(16, "\r\n");
 #nullable restore
 #line 13 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
 		}
@@ -154,11 +158,13 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
+            __builder.AddMarkupContent(17, "\t");
             __builder.CloseElement();
+            __builder.AddMarkupContent(18, "\r\n");
             __builder.CloseElement();
-            __builder.AddMarkupContent(13, "\r\n\r\n");
-            __builder.OpenElement(14, "button");
-            __builder.AddAttribute(15, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(19, "\r\n\r\n");
+            __builder.OpenElement(20, "button");
+            __builder.AddAttribute(21, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 17 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
                   BuildUnit
@@ -167,9 +173,10 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(16, "class", "btn btn-primary");
-            __builder.AddContent(17, "Build");
+            __builder.AddAttribute(22, "class", "btn btn-primary");
+            __builder.AddContent(23, "Build");
             __builder.CloseElement();
+            __builder.AddMarkupContent(24, "\r\n\r\n");
 #nullable restore
 #line 19 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
  if (needMoreBananas) { 
@@ -177,7 +184,8 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(18, "<div class=\"validation-message\">\r\n\t\tNot enough Bananas! :(\r\n\t</div>");
+            __builder.AddMarkupContent(25, "\t");
+            __builder.AddMarkupContent(26, "<div class=\"validation-message\">\r\n\t\tNot enough Bananas! :(\r\n\t</div>\r\n");
 #nullable restore
 #line 23 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
 }

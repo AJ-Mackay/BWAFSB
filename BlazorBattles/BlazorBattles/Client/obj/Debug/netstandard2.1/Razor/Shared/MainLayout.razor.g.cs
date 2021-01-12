@@ -103,21 +103,27 @@ using Blazored.Toast.Configuration;
             __builder.AddMarkupContent(1, "\r\n\r\n");
             __builder.OpenElement(2, "div");
             __builder.AddAttribute(3, "class", "sidebar");
-            __builder.OpenComponent<BlazorBattles.Client.Shared.NavMenu>(4);
+            __builder.AddMarkupContent(4, "\r\n    ");
+            __builder.OpenComponent<BlazorBattles.Client.Shared.NavMenu>(5);
             __builder.CloseComponent();
+            __builder.AddMarkupContent(6, "\r\n");
             __builder.CloseElement();
-            __builder.AddMarkupContent(5, "\r\n\r\n");
-            __builder.OpenElement(6, "div");
-            __builder.AddAttribute(7, "class", "main");
+            __builder.AddMarkupContent(7, "\r\n\r\n");
             __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", "top-row px-4");
-            __builder.OpenComponent<BlazorBattles.Client.Shared.TopMenu>(10);
+            __builder.AddAttribute(9, "class", "main");
+            __builder.AddMarkupContent(10, "\r\n    ");
+            __builder.OpenElement(11, "div");
+            __builder.AddAttribute(12, "class", "top-row px-4");
+            __builder.AddMarkupContent(13, "\r\n        ");
+            __builder.OpenComponent<BlazorBattles.Client.Shared.TopMenu>(14);
             __builder.CloseComponent();
+            __builder.AddMarkupContent(15, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(11, "\r\n\r\n    ");
-            __builder.OpenElement(12, "div");
-            __builder.AddAttribute(13, "class", "content px-4");
-            __builder.AddContent(14, 
+            __builder.AddMarkupContent(16, "\r\n\r\n    ");
+            __builder.OpenElement(17, "div");
+            __builder.AddAttribute(18, "class", "content px-4");
+            __builder.AddMarkupContent(19, "\r\n        ");
+            __builder.AddContent(20, 
 #nullable restore
 #line 16 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\MainLayout.razor"
          Body
@@ -126,7 +132,9 @@ using Blazored.Toast.Configuration;
 #line hidden
 #nullable disable
             );
+            __builder.AddMarkupContent(21, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(22, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

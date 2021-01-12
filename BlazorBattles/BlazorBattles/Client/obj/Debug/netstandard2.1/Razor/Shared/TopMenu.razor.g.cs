@@ -93,7 +93,7 @@ using Blazored.Toast.Services;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "top-menu");
-            __builder.AddMarkupContent(2, "<img src=\"icons/I_C_Banana.png\">");
+            __builder.AddMarkupContent(2, "\r\n\t<img src=\"icons/I_C_Banana.png\">");
             __builder.OpenElement(3, "span");
             __builder.AddAttribute(4, "class", "popover-header");
             __builder.AddContent(5, 
@@ -109,6 +109,7 @@ using Blazored.Toast.Services;
             __builder.AddMarkupContent(6, "\r\n\t");
             __builder.OpenComponent<BlazorBattles.Client.Shared.AddBananas>(7);
             __builder.CloseComponent();
+            __builder.AddMarkupContent(8, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998
