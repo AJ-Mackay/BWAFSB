@@ -118,20 +118,30 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
+#line 37 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
        
-    private bool collapseNavMenu = true;
+	private bool collapseNavMenu = true;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+	private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+	private void ToggleNavMenu()
+	{
+		collapseNavMenu = !collapseNavMenu;
+	}
+
+	private async void Logout()
+	{
+		await LocalStorage.RemoveItemAsync("isAuthenticated");
+		await AuthStateProvider.GetAuthenticationStateAsync();
+		NavigationManager.NavigateTo("/");
+	}
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Blazored.LocalStorage.ILocalStorageService LocalStorage { get; set; }
     }
 }
 #pragma warning restore 1591
