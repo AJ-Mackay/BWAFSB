@@ -214,3 +214,4 @@ C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Server\obj
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Server\obj\Debug\netcoreapp3.1\BlazorBattles.Server.pdb
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Server\obj\Debug\netcoreapp3.1\BlazorBattles.Server.genruntimeconfig.cache
 C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Server\bin\Debug\netcoreapp3.1\Blazored.Toast.dll
+C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Server\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
