@@ -54,6 +54,7 @@ obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.FileProviders.Abst
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Logging.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.WebAssembly.dll
+obj\Debug\netstandard2.1\blazor\unlinked\Blazored.LocalStorage.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.AspNetCore.Components.Authorization.dll
 obj\Debug\netstandard2.1\blazor\unlinked\BlazorBattles.Client.pdb
 obj\Debug\netstandard2.1\blazor\unlinked\BlazorBattles.Shared.pdb

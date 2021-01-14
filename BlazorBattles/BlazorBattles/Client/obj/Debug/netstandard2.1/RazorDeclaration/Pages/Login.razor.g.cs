@@ -103,7 +103,13 @@ using Microsoft.AspNetCore.Authorization;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/login")]
+#nullable restore
+#line 14 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\_Imports.razor"
+using Blazored.LocalStorage;
+
+#line default
+#line hidden
+#nullable disable
     public partial class Login : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -112,21 +118,21 @@ using Microsoft.AspNetCore.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Login.razor"
+#line 20 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Login.razor"
        
 	private BlazorBattles.Shared.UserLogin user = new BlazorBattles.Shared.UserLogin();
 
-	bool isAuthenticated = false;
-
-	private void HandleLogin()
+	private async void HandleLogin()
 	{
-		isAuthenticated = true;
-		Console.WriteLine($"{user.Username} // {user.Password}");
+		await LocalStorage.SetItemAsync<bool>("isAuthenticated", true);
+		await AuthStateProvider.GetAuthenticationStateAsync();
 	}
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Blazored.LocalStorage.ILocalStorageService LocalStorage { get; set; }
     }
 }
 #pragma warning restore 1591

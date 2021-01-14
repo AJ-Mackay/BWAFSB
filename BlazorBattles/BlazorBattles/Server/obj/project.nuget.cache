@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tIOoMJb2DaRiLs4chSeIIQqaWfwJual1ahANKlR8Garn5GABBqX3u1tF18xIQ2vfzCSbMHa1LeeeN6+8ekjm1g==",
+  "dgSpecHash": "5jdIX2bfYcXbXleXkZBSglWAJlhQvFJyGUlrn7vPM5pGDwsBVxONOLNeP9ts1VngeOiq5In5WO7rw/kFUXasIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Server\\BlazorBattles.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Paul Mackay\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\blazored.toast\\3.1.2\\blazored.toast.3.1.2.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.11\\microsoft.aspnetcore.authorization.3.1.11.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.11\\microsoft.aspnetcore.components.3.1.11.nupkg.sha512",
