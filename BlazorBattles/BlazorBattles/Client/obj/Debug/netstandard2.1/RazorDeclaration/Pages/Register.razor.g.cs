@@ -98,18 +98,19 @@ using Blazored.Toast.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 58 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Register.razor"
+#line 59 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Register.razor"
        
 	BlazorBattles.Shared.UserRegister user = new BlazorBattles.Shared.UserRegister();
 
 	void HandleRegistration()
 	{
-		Console.WriteLine("Store this new user in the database!");
+		NavigationManager.NavigateTo("login");
 	}
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IUnitService UnitService { get; set; }
     }
 }

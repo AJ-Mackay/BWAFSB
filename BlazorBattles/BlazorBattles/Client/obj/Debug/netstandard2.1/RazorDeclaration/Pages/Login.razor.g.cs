@@ -98,7 +98,7 @@ using Blazored.Toast.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 34 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Login.razor"
+#line 26 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Login.razor"
        
 	private BlazorBattles.Shared.UserLogin user = new BlazorBattles.Shared.UserLogin();
 
