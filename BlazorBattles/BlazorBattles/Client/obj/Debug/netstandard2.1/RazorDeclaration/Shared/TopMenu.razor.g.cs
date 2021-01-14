@@ -104,18 +104,19 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\TopMenu.razor"
-       
-	
-	protected override void OnInitialized()
-	{
-		BananaService.OnChange += StateHasChanged;
-	}
+#line 19 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Shared\TopMenu.razor"
+           
 
-	public void Dispose()
-	{
-		BananaService.OnChange -= StateHasChanged;
-	}
+		protected override void OnInitialized()
+		{
+			BananaService.OnChange += StateHasChanged;
+		}
+
+		public void Dispose()
+		{
+			BananaService.OnChange -= StateHasChanged;
+		}
+	
 
 #line default
 #line hidden
