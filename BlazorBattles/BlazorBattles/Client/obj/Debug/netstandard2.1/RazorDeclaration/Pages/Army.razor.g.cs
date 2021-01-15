@@ -125,6 +125,18 @@ using Blazored.LocalStorage;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 33 "C:\Users\Paul Mackay\Desktop\BWAFSB-Intro\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
+                   
+				protected override async Task OnInitializedAsync()
+				{
+					await UnitService.LoadUnitsAsync();
+				}
+			
+
+#line default
+#line hidden
+#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IUnitService UnitService { get; set; }
     }
 }

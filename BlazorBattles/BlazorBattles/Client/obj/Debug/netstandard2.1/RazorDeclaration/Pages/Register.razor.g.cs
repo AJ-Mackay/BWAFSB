@@ -128,6 +128,11 @@ using Blazored.LocalStorage;
 		NavigationManager.NavigateTo("login");
 	}
 
+	protected override async Task OnInitializedAsync()
+	{
+		await UnitService.LoadUnitsAsync();
+	}
+
 #line default
 #line hidden
 #nullable disable
