@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\K8J_N7Vs3b1coxUtQiobljtS-QF1789fITEMDhIsKKc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\v-ShjLd7NEKGWTEq9rb7MLkIKd0YoIcXPs_k5yPAsrE=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorBattles.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorBattles.Client.dll.br"
     },
@@ -206,7 +206,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazored.Toast.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\AjINSFG_q83PKzPJJSyyhUG3KOV6reUuQovh5gmNI1I=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rA73B_5A2L78L9WNxYW_w4KPxGcwX1QastwwFAipgHY=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorBattles.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorBattles.Shared.dll.br"
     },
@@ -291,12 +291,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\itm0dVpf82SMN0RwETGbBAg9oMY_e7LvIwpPVAQ-nlY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5zRmSNmRzXHwYxsw7rDn5J_cAuXJ5x4oc94kW-CwWds=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorBattles.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorBattles.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zj1S0sDmn6u2dpOmZuvjsVgQrSgJ-ct8X2aa8BzzsYQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-O1s1z_qflWWHIE3Gjo_E-LcXy-Hetj3u-Tf6JQiu30=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorBattles.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorBattles.Shared.pdb.br"
     },
@@ -321,7 +321,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uAROfQvXzUYLleHGUva_JHcxOnjZ-1EI0PlAOe_FzbI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\M93tZSIyZZYbT_xd-RAxC6TzU7BnU--n8xPtVJ5o0Nk=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
