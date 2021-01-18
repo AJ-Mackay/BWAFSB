@@ -119,14 +119,23 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 59 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Register.razor"
+#line 61 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Register.razor"
        
-	BlazorBattles.Shared.UserRegister user = new BlazorBattles.Shared.UserRegister();
+		BlazorBattles.Shared.UserRegister user = new BlazorBattles.Shared.UserRegister();
 
-	void HandleRegistration()
-	{
-		NavigationManager.NavigateTo("login");
-	}
+		async void HandleRegistration()
+		{
+			var result = await AuthService.Register(user);
+			if (result.Success)
+			{
+				ToastService.ShowSuccess(result.Message);
+				NavigationManager.NavigateTo("");
+			}
+			else 
+			{
+				ToastService.ShowError(result.Message);
+			}
+		}
 
 	protected override async Task OnInitializedAsync()
 	{
@@ -136,6 +145,8 @@ using Blazored.LocalStorage;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IAuthService AuthService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IUnitService UnitService { get; set; }
     }
