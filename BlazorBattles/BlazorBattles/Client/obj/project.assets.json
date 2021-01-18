@@ -1759,11 +1759,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj",
       "projectName": "BlazorBattles.Client",
-      "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj",
+      "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj",
       "packagesPath": "C:\\Users\\Paul Mackay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paul Mackay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1780,8 +1780,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj": {
-              "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj"
+            "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj": {
+              "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj"
             }
           }
         }

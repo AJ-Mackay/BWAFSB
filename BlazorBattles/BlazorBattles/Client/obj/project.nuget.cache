@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZnYXMpC9+BwvXikSq8qGAXepl9Rg36nx8AWi+bqW10vVdwxHZlBS/KFiVmNpWCXXckmddaIzJe/DUBzmJ7OfwQ==",
+  "dgSpecHash": "tRLrTUuoZ/5wcHb9U0sHO8H6nEUkQPkRkp0o7Fc140M9yzCZImYo6sgOw0Vu0XQupzvAXge8Q5d2PH0h0PzHRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj",
+  "projectFilePath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\blazored.toast\\3.1.2\\blazored.toast.3.1.2.nupkg.sha512",

@@ -1946,11 +1946,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Server\\BlazorBattles.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Server\\BlazorBattles.Server.csproj",
       "projectName": "BlazorBattles.Server",
-      "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Server\\BlazorBattles.Server.csproj",
+      "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Server\\BlazorBattles.Server.csproj",
       "packagesPath": "C:\\Users\\Paul Mackay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paul Mackay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1967,11 +1967,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj": {
-              "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj"
+            "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj": {
+              "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\BlazorBattles.Client.csproj"
             },
-            "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj": {
-              "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB-Intro\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj"
+            "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj": {
+              "projectPath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Shared\\BlazorBattles.Shared.csproj"
             }
           }
         }
