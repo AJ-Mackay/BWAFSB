@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VDtXlx5fND9Uth7GiEpFP1bI2ePyl0aWIaQCfn4U4Udamg0Xy3r7rn+7dU8ZBXQmTu9U6pu3MSCcHbS2lBeWTw==",
+  "dgSpecHash": "O1PgZwrzEvVmVwpud/H2CKf98Ed1S4+5K9qDRhsKpYdyqky0RMRhtj97LZnfBJ+7rzAK7Jv9d6AahNcZF89Q7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Server\\BlazorBattles.Server.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,9 @@
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.jsinterop\\3.1.11\\microsoft.jsinterop.3.1.11.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
@@ -52,8 +55,10 @@
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
+    "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
     "C:\\Users\\Paul Mackay\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
   ],
