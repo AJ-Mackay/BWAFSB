@@ -127,7 +127,7 @@ using Blazored.LocalStorage;
 		var result = await AuthService.Login(user);
 		if (result.Success)
 		{
-			await LocalStorage.SetItemAsync<bool>("isAuthenticated", true);
+			await LocalStorage.SetItemAsync<string>("authToken", result.Data);
 			await AuthStateProvider.GetAuthenticationStateAsync();
 		}
 		else

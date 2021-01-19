@@ -131,7 +131,7 @@ using Blazored.LocalStorage;
 
 	private async void Logout()
 	{
-		await LocalStorage.RemoveItemAsync("isAuthenticated");
+		await LocalStorage.RemoveItemAsync("authToken");
 		await AuthStateProvider.GetAuthenticationStateAsync();
 		NavigationManager.NavigateTo("/");
 	}
