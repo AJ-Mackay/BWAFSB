@@ -118,19 +118,30 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Login.razor"
+#line 22 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Login.razor"
        
 	private BlazorBattles.Shared.UserLogin user = new BlazorBattles.Shared.UserLogin();
 
 	private async void HandleLogin()
 	{
-		await LocalStorage.SetItemAsync<bool>("isAuthenticated", true);
-		await AuthStateProvider.GetAuthenticationStateAsync();
+		var result = await AuthService.Login(user);
+		if (result.Success)
+		{
+			await LocalStorage.SetItemAsync<bool>("isAuthenticated", true);
+			await AuthStateProvider.GetAuthenticationStateAsync();
+		}
+		else
+		{
+			ToastService.ShowError(result.Message);
+		}
+
 	}
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IAuthService AuthService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private Blazored.LocalStorage.ILocalStorageService LocalStorage { get; set; }
     }
