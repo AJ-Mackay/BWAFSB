@@ -128,27 +128,14 @@ using Blazored.LocalStorage;
 #nullable restore
 #line 26 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Build.razor"
        
-		int selectedUnitId = 1;
+	int selectedUnitId = 1;
 
-		bool needMoreBananas = false;
+	bool needMoreBananas = false;
 
-		public void BuildUnit()
-		{
-			BlazorBattles.Shared.Unit selectedUnit =
-				UnitService.Units.FirstOrDefault(unit => unit.Id == selectedUnitId);
-
-			if (BananaService.Bananas < selectedUnit.BananaCost)
-			{
-				needMoreBananas = true;
-				ToastService.ShowError("Not enough Bananas", ":(");
-				return;
-			}
-
-			needMoreBananas = false;
-
-			BananaService.EatBananas(selectedUnit.BananaCost);
-			UnitService.AddUnit(selectedUnitId);
-		}
+	public async Task BuildUnit()
+	{
+		await UnitService.AddUnit(selectedUnitId);
+	}
 
 	protected override async Task OnInitializedAsync()
 	{
