@@ -817,8 +817,8 @@ C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug
 C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\BlazorBattles.Client.csproj.CopyComplete
 C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\BlazorBattles.Client.dll
 C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\BlazorBattles.Client.pdb
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\xS8D3Dq7tSbkh8yXZvWV463vJGX7LR4TafZyTnVC8p8=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\77F7uot6pU5U-zJoH_p1a8uxV9Cprznlv8NJJ43En2g=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\M3XcLL0FGwAkktQQDeMIAk6uM4IRptk9vIwj7f4X8wQ=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\xw313wfAijgUcmnCTr-ex05751sBTLqgOcE3G5bXOhs=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\w9vuljPR12QUGhggkHdS6bae1I8V_nNTlKClL6izFVI=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\nMBw8I7-sg7_bRKTG9EEus9gAXny_z-RZlH9JnF2pDU=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\4rPEIv1aMSV3PMB9bsepW9vengcOB_ApJd7J-oMr8rY=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\cpEDJVuUFppIwvX_n2LSV70g2e1ZSWU0aHmAboPBAyU=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\TlUecqkaZqh8wKTNTdwHgvwJ5m3OfMsGsDnOAFjr11c=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\0Ti8ZMIKP0KTDxiExL3v2_LBhxiGwFAm1owYF-KmqG8=.hash
