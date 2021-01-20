@@ -131,6 +131,7 @@ using Blazored.LocalStorage;
 				protected override async Task OnInitializedAsync()
 				{
 					await UnitService.LoadUnitsAsync();
+					await UnitService.LoadUserUnitsAsync();
 				}
 			
 
