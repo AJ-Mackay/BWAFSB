@@ -119,16 +119,31 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Leaderboard.razor"
+#line 45 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Leaderboard.razor"
           
+
+		int myUserId;
+
 	protected override async Task OnInitializedAsync()
 	{
 		await LeaderboardService.GetLeaderboard();
+
+		var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+		myUserId = int.Parse(authState.User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier).Value);
+	}
+
+	public string GetMyStyle(int userId)
+	{
+		if (userId == myUserId)
+			return "color: green; font-weight: 600;";
+		else
+			return string.Empty;
 	}
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.ILeaderboardService LeaderboardService { get; set; }
     }
 }
