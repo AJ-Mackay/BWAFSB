@@ -39,7 +39,7 @@ namespace BlazorBattles.Server.Controllers
             var result = new BattleResult();
             await Fight(attacker, opponent, result);
 
-            return Ok();
+            return Ok(result);
         }
 
         private async Task Fight(User attacker, User opponent, BattleResult result)
