@@ -126,12 +126,17 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
+#line 37 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Army.razor"
                    
 				protected override async Task OnInitializedAsync()
 				{
 					await UnitService.LoadUnitsAsync();
 					await UnitService.LoadUserUnitsAsync();
+				}
+
+				private async Task ReviveArmy()
+				{
+					await UnitService.ReviveArmy();
 				}
 			
 

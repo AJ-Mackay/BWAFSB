@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2UMVh29juDZep1-omlNyBoL7uthD1ZCSyN-7ehI4Cms=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\XeArBVoWatIMv-z5JE4R6B5z6_Plfnw1FIqA7HATzyk=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorBattles.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorBattles.Client.dll.gz"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Sc_6mhpYsah80yhxEAR0f_pK7PQwnBGOEsfboGnsr6E=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\cDCYnl4tOFHLOiljoNoQ5DFUUDwc6cwtwC-kCoyXMJQ=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorBattles.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorBattles.Client.pdb.gz"
     },
@@ -321,7 +321,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_r3O3fb45e34ui3G5wd6GJbBJmYAwhhx7VozUzLNfes=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7CivoxJpL1DDk_xWOssCKqQzjPFiC8Jf8z0AC44-olM=.hash",
       "Source": "C:\\Users\\Paul Mackay\\Desktop\\BWAFSB\\BlazorBattles\\BlazorBattles\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
