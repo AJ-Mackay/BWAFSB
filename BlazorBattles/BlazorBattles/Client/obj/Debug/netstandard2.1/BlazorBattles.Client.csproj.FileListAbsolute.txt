@@ -819,8 +819,8 @@ C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug
 C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\BlazorBattles.Client.pdb
 C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Leaderboard.razor.g.cs
 C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\Razor\Pages\Leaderboard.razor.g.cs
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\eRXjHsskET2sOPx2hnFjYgo0Th_roihhvv-vNvMsiFs=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\WzoDX4EDgp-sj1NNsOtQis7XT_Czz_QIFfW-yXBhmDQ=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\G8puApmEGAS9OzElQaNPKWhqNc4vNQN4aeb8mMDwlnE=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\S518p0YLq1pIR815ntHXEWg010uSZJXWq-WrktYclpM=.hash
-C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\mgVXZYBQ0caQH1u3y-1liJAJPUEhUWsRol3OCTDgCdk=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\2UMVh29juDZep1-omlNyBoL7uthD1ZCSyN-7ehI4Cms=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\trh7n_W6krCAWdRej1dqKAomyo5spCzM30A1y9l5zCw=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\Sc_6mhpYsah80yhxEAR0f_pK7PQwnBGOEsfboGnsr6E=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\thgIXHBWHYlXhig7SQTijhN_PPMIt1iZUR8SdN9DD8c=.hash
+C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\obj\Debug\netstandard2.1\integrity\_r3O3fb45e34ui3G5wd6GJbBJmYAwhhx7VozUzLNfes=.hash
