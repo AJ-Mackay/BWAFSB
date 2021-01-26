@@ -110,8 +110,8 @@ using Blazored.LocalStorage;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/leaderboard")]
-    public partial class Leaderboard : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/battlelog")]
+    public partial class BattleLog : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -119,53 +119,21 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\Leaderboard.razor"
-          
+#line 13 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\BattleLog.razor"
+       
 
-		int myUserId;
-
-	protected override async Task OnInitializedAsync()
+	string GetClass(string round)
 	{
-		await LeaderboardService.GetLeaderboard();
-
-		var authState = await AuthStateProvider.GetAuthenticationStateAsync();
-		myUserId = int.Parse(authState.User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier).Value);
-	}
-
-	public string GetMyStyle(int userId)
-	{
-		if (userId == myUserId)
-			return "color: green; font-weight: 600;";
+		if (round.Contains("kills"))
+			return "list-group-item list-group-item-danger";
 		else
-			return string.Empty;
-	}
-
-	public async Task StartBattle(int opponentId)
-	{
-		var result = await BattleService.StartBattle(opponentId);
-		if (result.RoundsFought <= 0)
-			ToastService.ShowInfo("The battle did not take place.");
-		else if (result.IsVictory)
-			ToastService.ShowSuccess("You won the battle!");
-		else
-			ToastService.ShowWarning("You have been defeated!");
-
-		await LeaderboardService.GetLeaderboard();
-		await BananaService.GetBananas();
-
-		if (result.RoundsFought > 0)
-			NavigationManager.NavigateTo("battlelog");
+			return "list-group-item";
 	}
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IBananaService BananaService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IBattleService BattleService { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.ILeaderboardService LeaderboardService { get; set; }
     }
 }
 #pragma warning restore 1591
