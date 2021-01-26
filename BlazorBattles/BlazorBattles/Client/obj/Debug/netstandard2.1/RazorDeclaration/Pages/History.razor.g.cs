@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorBattles.Client.Shared
+namespace BlazorBattles.Client.Pages
 {
     #line hidden
     using System;
@@ -110,7 +110,8 @@ using Blazored.LocalStorage;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/history")]
+    public partial class History : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -118,30 +119,25 @@ using Blazored.LocalStorage;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 58 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Shared\NavMenu.razor"
-       
-	private bool collapseNavMenu = true;
-
-	private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-	private void ToggleNavMenu()
+#line 32 "C:\Users\Paul Mackay\Desktop\BWAFSB\BlazorBattles\BlazorBattles\Client\Pages\History.razor"
+          
+	protected override async Task OnInitializedAsync()
 	{
-		collapseNavMenu = !collapseNavMenu;
+		await BattleService.GetHistory();
 	}
 
-	private async void Logout()
+	string GetHistoryStyle(BlazorBattles.Shared.BattleHistoryEntry entry)
 	{
-		await LocalStorage.RemoveItemAsync("authToken");
-		await AuthStateProvider.GetAuthenticationStateAsync();
-		NavigationManager.NavigateTo("/");
+		if (entry.YouWon)
+			return "color:green; font-weight: 600;";
+		else
+			return string.Empty;
 	}
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Blazored.LocalStorage.ILocalStorageService LocalStorage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorBattles.Client.Services.IBattleService BattleService { get; set; }
     }
 }
 #pragma warning restore 1591
